@@ -14,6 +14,7 @@
 		18B01EA22722C9760001403B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B01EA02722C9760001403B /* LaunchScreen.storyboard */; };
 		18B01EAD2722C9760001403B /* TestGitProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B01EAC2722C9760001403B /* TestGitProjectTests.swift */; };
 		18B01EB82722C9760001403B /* TestGitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B01EB72722C9760001403B /* TestGitProjectUITests.swift */; };
+		18B01EC62722CE640001403B /* IndexFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B01EC52722CE640001403B /* IndexFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18B01EB32722C9760001403B /* TestGitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B01EB72722C9760001403B /* TestGitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitProjectUITests.swift; sourceTree = "<group>"; };
 		18B01EB92722C9760001403B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B01EC52722CE640001403B /* IndexFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				18B01E972722C96E0001403B /* AppDelegate.swift */,
 				18B01E992722C96E0001403B /* ViewController.swift */,
+				18B01EC52722CE640001403B /* IndexFile.swift */,
 				18B01E9B2722C96F0001403B /* Main.storyboard */,
 				18B01E9E2722C9760001403B /* Assets.xcassets */,
 				18B01EA02722C9760001403B /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B01EC62722CE640001403B /* IndexFile.swift in Sources */,
 				18B01E9A2722C96E0001403B /* ViewController.swift in Sources */,
 				18B01E982722C96E0001403B /* AppDelegate.swift in Sources */,
 			);
