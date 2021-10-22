@@ -29,13 +29,29 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qmh-Nc-MKh">
+                                <rect key="frame" x="12" y="532" width="142" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="5dr-wz-Vub"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DGs-I9-fAZ">
+                                <rect key="frame" x="221" y="532" width="142" height="115"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DGs-I9-fAZ" secondAttribute="trailing" constant="12" id="1hc-1D-BeV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DGs-I9-fAZ" secondAttribute="bottom" constant="20" id="4g4-bP-344"/>
+                            <constraint firstItem="qmh-Nc-MKh" firstAttribute="height" secondItem="DGs-I9-fAZ" secondAttribute="height" id="6Q2-Xn-jo0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OpA-Wx-mdU" secondAttribute="trailing" id="9Aa-pw-Jf2"/>
+                            <constraint firstItem="qmh-Nc-MKh" firstAttribute="width" secondItem="DGs-I9-fAZ" secondAttribute="width" id="Ebp-KI-Xkp"/>
                             <constraint firstItem="OpA-Wx-mdU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="GM5-pe-8ex"/>
                             <constraint firstItem="OpA-Wx-mdU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sjg-Jd-VzG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qmh-Nc-MKh" secondAttribute="bottom" constant="20" id="UOS-uH-APV"/>
+                            <constraint firstItem="DGs-I9-fAZ" firstAttribute="leading" secondItem="qmh-Nc-MKh" secondAttribute="trailing" constant="67" id="W9a-Qq-eMN"/>
                             <constraint firstItem="8rk-eB-6r6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="WW4-Xd-f2M"/>
+                            <constraint firstItem="qmh-Nc-MKh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="imv-2Q-cLr"/>
                             <constraint firstItem="8rk-eB-6r6" firstAttribute="top" secondItem="OpA-Wx-mdU" secondAttribute="bottom" constant="12" id="nFW-3e-v0j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8rk-eB-6r6" secondAttribute="trailing" constant="12" id="tqS-s4-gcg"/>
                         </constraints>
