@@ -11,9 +11,14 @@ class IndexFile: ViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.printTxt(str: "this first repo in git!")
+        self.errorFixed(error: "server error.")
     }
     
     func printTxt(str:String){
         print(str)
+    }
+    
+    func errorFixed(error:String){
+        print(error)
     }
 }
