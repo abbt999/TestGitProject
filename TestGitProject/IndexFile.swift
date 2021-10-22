@@ -10,5 +10,10 @@ import Foundation
 class IndexFile: ViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        self.printTxt(str: "this first repo in git!")
+    }
+    
+    func printTxt(str:String){
+        print(str)
     }
 }
